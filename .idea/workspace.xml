@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac2709c-4bdb-4f32-9262-0629a821d0ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="fac2709c-4bdb-4f32-9262-0629a821d0ef" name="Changes" comment="Annotation and class configurations added">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b92946358515e1a67e9b3df78a3bae1d257e57c2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b92946358515e1a67e9b3df78a3bae1d257e57c2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eebce125f1ad198700673dc99e55976154505549" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eebce125f1ad198700673dc99e55976154505549" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/XMLConfigExample/repo/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/XMLConfigExample/repo/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/XMLConfigExample/repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/XMLConfigExample/repo/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/XMLConfigExample/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/XMLConfigExample/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/annotationConfigExample/AnnotationConfigRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/annotationConfigExample/AnnotationConfigRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/annotationConfigExample/repo/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/annotationConfigExample/repo/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/classConfigExample/ClassConfigRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/classConfigExample/ClassConfigRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/classConfigExample/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/classConfigExample/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/classConfigExample/repo/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/classConfigExample/repo/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/classConfigExample/repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/classConfigExample/repo/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +42,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/zarad/IdeaProjects/spring-test-config-project/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -48,7 +59,7 @@
       <recent name="C:\Users\zarad\IdeaProjects\spring-test-config-project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotationConfigRunner">
+  <component name="RunManager" selected="Application.ClassConfigRunner">
     <configuration name="AnnotationConfigRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.lukyanov.annotationConfigExample.AnnotationConfigRunner" />
       <module name="spring-test-config-project" />
@@ -90,8 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnnotationConfigRunner" />
         <item itemvalue="Application.ClassConfigRunner" />
+        <item itemvalue="Application.AnnotationConfigRunner" />
         <item itemvalue="Application.XMLConfigRunner" />
       </list>
     </recent_temporary>
@@ -104,11 +115,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703064170907</updated>
-      <workItem from="1703064171956" duration="314000" />
+      <workItem from="1703064171956" duration="3441000" />
     </task>
+    <task id="LOCAL-00001" summary="Annotation and class configurations added">
+      <option name="closed" value="true" />
+      <created>1703064638983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703064638983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Annotation and class configurations added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Annotation and class configurations added" />
   </component>
 </project>

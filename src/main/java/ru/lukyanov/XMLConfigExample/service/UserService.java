@@ -5,6 +5,7 @@ import ru.lukyanov.XMLConfigExample.entity.User;
 import ru.lukyanov.XMLConfigExample.repo.UserRepo;
 
 import java.util.Optional;
+
 @AllArgsConstructor
 public class UserService {
 

@@ -6,6 +6,7 @@ import ru.lukyanov.XMLConfigExample.entity.User;
 
 import java.util.Map;
 import java.util.Optional;
+
 @Data
 public class UserRepo implements Repo<User> {
 
